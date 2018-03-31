@@ -22,11 +22,11 @@ class Orang:
     
 org = Orang ("Bubu")
 org.katakanHalo()
-Orang.total_pupolasi
+Orang.total_pupolasi()
 
 org2 = Orang("Dede")
 org2.katakanHelo()
-Orang.total_populasi
+Orang.total_populasi()
 
 print ("objek dihapus, sekarang tinggal ")
 del org
