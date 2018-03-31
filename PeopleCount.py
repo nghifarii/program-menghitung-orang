@@ -14,8 +14,8 @@ class Orang:
   def katakanHalo(self):
     print ("Halo, nama saya %s, apa kabar? " % self.nama)
   
-  def total_populasi(self):
-    print ("total orang %s " cls.total)
+  def total_populasi(cls):
+    print ("total orang %s " cls.total_orang)
   
   #method class
   total_populasi = classmethod(total_populasi)
