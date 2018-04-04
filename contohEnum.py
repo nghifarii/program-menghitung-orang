@@ -15,8 +15,8 @@ for animal in AnimalEnum:
     
 
 """"
-Disini kita membuan sebuah Enumeration class dengan nama AnimalEnum.
+Disini kita membuat sebuah Enumeration class dengan nama AnimalEnum.
 di dalam class, kita membuat class attributes dengan nama-nama member enumeration, yang konstan.
 ketika kamu mencoba untuk print out sebuah member, kamu hanya akan mendapatkan kembali string. 
-tapi jika kmau print out the repr dari enum member, kamu akan mendapatkan enum member dan nilainya.
+tapi jika kamu print out the repr dari enum member, kamu akan mendapatkan enum member dan nilainya.
 """
