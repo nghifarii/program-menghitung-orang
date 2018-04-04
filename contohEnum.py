@@ -1,18 +1,28 @@
 # Python
+"Nomor di setiap hewan"
 from enum import Enumenum 
 class AnimalEnum(Enum):
+    "==========Selamat datang di Penomoran Terhadap Hewan================"
     Kuda = 1
     Sapi = 2
     Ayam = 3
     Kelinci = 4
-print (AnimalEnum.Aya,)
+print (AnimalEnum.__doc__)
+print (AnimalEnum.Ayam)
 print (repr(AnimalEnum.Ayam))
-print (AnimalEnum.Ayam.name)
-print (AnimalEnum.ayam.value)
-
+print("\n")
+print (AnimalEnum.Sapi)
+print (repr(AnimalEnum.Sapi))
+print("\n")
+print AnimalEnum.Ayam.name
+print ("Ayam dengan nomor " + str(AnimalEnum.Ayam.value))
+print("\n")
+print AnimalEnum.Sapi.name
+print ("Sapi dengan nomor " + str(AnimalEnum.Sapi.value))
+print("\n")
 for animal in AnimalEnum:
-    print ("Name: {} value: {}".format(animal, animal.value))
-    
+    print ("Name: {}Value: {}". format(animal, animal.value))
+
 
 """"
 Disini kita membuat sebuah Enumeration class dengan nama AnimalEnum.
