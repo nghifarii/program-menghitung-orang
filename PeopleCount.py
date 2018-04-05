@@ -9,7 +9,7 @@ class Orang:
    
   def __del__(self):
     #kurangi total orang jika objek di hapus
-    orang.total_orang -= 1
+    Orang.total_orang -= 1
   
   def katakanHalo(self):
     print ("Halo, nama saya %s, apa kabar? " % self.nama)
@@ -25,7 +25,7 @@ org.katakanHalo()
 Orang.total_pupolasi()
 
 org2 = Orang("Dede")
-org2.katakanHelo()
+org2.katakanHalo()
 Orang.total_populasi()
 
 print ("objek dihapus, sekarang tinggal ")
